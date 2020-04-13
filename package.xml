@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>watchman</name>
+  <version>4.9.0</version>
+  <description>Watches files and records, or triggers actions, when they change.</description>
+  <maintainer email="todotodo@facebook.com">Facebook</maintainer>
+  <author>Facebook Inc.</author>
+  <url type="website">https://facebook.github.io/watchman</url>
+  <url type="repository">https://github.com/facebook/watchman</url>
+  <license>Apache License 2.0</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>autoconf</depend>
+  <depend>automake</depend>
+<!--  <depend>build-essential</depend> -->
+  <depend>google-mock</depend>
+  <depend>python-setuptools</depend>
+  <depend>python-dev</depend>
+  <depend>libssl-dev</depend>
+  <depend>libtool</depend>
+  <exec_depend>libgflags-dev</exec_depend>
+</package>
